@@ -1,0 +1,31 @@
+{
+	"pugdagd-node-only": {
+		"description": "Pugdagd Node",
+		"modules": {
+			"pugdagd:kd0": {
+				"reset-peers": false,
+				"args":{
+					"rpclisten": "0.0.0.0:26589",
+					"listen": "0.0.0.0:26590",
+					"addpeer": "dnsseed1.pugdag.com",
+					"profile": 8110
+				}
+			}
+		}
+	},
+	"pugdagd-archival-only" : {
+		"description": "Pugdagd Archival Node",
+		"modules": {
+			"pugdagd:kd0": {
+				"reset-peers": false,
+				"args": {
+					"archival": null,
+					"rpclisten": "0.0.0.0:26589",
+					"listen": "0.0.0.0:26590",
+					"addpeer": "dnsseed1.pugdag.com",
+					"profile": 8110
+				}
+			}
+		}
+	}
+}
