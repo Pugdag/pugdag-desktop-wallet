@@ -309,7 +309,7 @@ body {
 	--flow-background-color: #273C75;
 	--flow-foreground-color: #232323;
 	--flow-terminal-bg-color: #fff;
-	--flow-terminal-color: #000;
+	--flow-terminal-color: #273C75;
 	--flow-terminal-cursor: #555;
 	--flow-terminal-selection: rgba(100, 100, 100, 0.5);
 }
