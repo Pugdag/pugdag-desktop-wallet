@@ -9,7 +9,7 @@ PugDAG Desktop is a dedicated desktop process manager for
 
 ```
 wget https://github.com/Pugdag/pugdag-desktop-wallet/releases/download/v1.0.0/pugdag-desktop-v1.0.0-linux-x64.zip
-cd pugdag-desktop
+cd pugdag-desktop-wallet
 nw .
 ```
 
