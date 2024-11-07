@@ -89,7 +89,7 @@ body.flow-theme-dark {
 	--flow-foreground-color: #FFFFFF;
 	--flow-terminal-bg-color: #232323;
 	--flow-terminal-color: #5f4500;
-	--flow-terminal-cursor: #ccc;
+	--flow-terminal-cursor: #5f4500;
 	--flow-terminal-selection: rgba(100, 100, 100, 0.5);
 	--flow-tab-active-bg-top: #272932;
 	--flow-tab-border-color: #272932;;
@@ -310,8 +310,8 @@ body {
 	--flow-foreground-color: #232323;
 	--flow-terminal-bg-color: #fff;
 	--flow-terminal-color: #273C75;
-	--flow-terminal-cursor: #555;
-	--flow-terminal-selection: rgba(100, 100, 100, 0.5);
+	--flow-terminal-cursor: #586178;
+	--flow-terminal-selection: #fff(100, 100, 100, 0.5);
 }
 
 body.invert-terminals {

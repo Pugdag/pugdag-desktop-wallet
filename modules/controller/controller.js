@@ -76,7 +76,7 @@ class PugdagDesktopApp extends FlowApp{
 						<li><flow-shell-link
 							href="https://github.com/Pugdag/"><flow-i18n>GitHub</flow-i18n></flow-shell-link></li>
 						<li><flow-shell-link
-							href="https://discord.gg/MHn4wStC4h"><flow-i18n>Discord Chat</flow-i18n></flow-shell-link></li>
+							href="https://discord.gg/Swj4saMdUV"><flow-i18n>Discord Chat</flow-i18n></flow-shell-link></li>
 						<li><flow-link
 							id="release-notes-link"><flow-i18n>Release Notes</flow-i18n></flow-link></li>
 					</ul>
@@ -565,7 +565,7 @@ class PugdagDesktopApp extends FlowApp{
 		}).filter(o=>o.type=='pugdagd').shift();
 
 		if(!pugdagd)
-			return null;//{network:"pugdag", port:33455};//{network:"pugdagtest", port:33755};
+			return null;//{network:"pugdag", port:26589};//{network:"pugdagtest", port:33755};
 
 		const { args } = pugdagd;
 		let networkType = ['testnet','devnet','simnet'].filter(v=>args[v] !== undefined).shift() || 'mainnet';
